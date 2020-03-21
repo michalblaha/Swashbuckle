@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "swagger-ui", "http://localhost:55139", "{DDE07B02-DD45-4ABF-96D3-A4FBB144BBA1}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_55139"
 		Debug.AspNetCompiler.PhysicalPath = "swagger-ui\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55139\"
@@ -96,5 +96,8 @@ Global
 		{E51BDA79-1942-490E-A1D4-E37235736D8A} = {6A2C69FA-6824-44F3-A1A5-1313050FA567}
 		{2DFE3931-747F-48C6-8530-B74710988095} = {6A2C69FA-6824-44F3-A1A5-1313050FA567}
 		{2D1F2F73-5828-413C-9FD0-6F81A964C82D} = {6A2C69FA-6824-44F3-A1A5-1313050FA567}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0CF92F2-3C4D-4F51-AE1A-CBE49128CFBC}
 	EndGlobalSection
 EndGlobal
